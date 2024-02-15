@@ -1,0 +1,11 @@
+.flexboxEquipes {
+    display: flex;
+    gap: 20px; /* Ajuste o valor conforme necessário */
+    justify-content: space-around; /* Ou use space-between ou space-evenly conforme preferir */
+}
+
+.flexboxEquipes > div {
+    flex: 1;
+    padding: 15px; /* Adicione padding para um espaçamento interno nas equipes */
+    border: 1px solid #ccc; /* Adicione uma borda para destacar as equipes */
+}
